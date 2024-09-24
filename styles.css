@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    font-family: "Audiowide";
+}
+
+div{
+    background-color: white;
+}
+
+.post{
+    display: flex;
+    width: 600px;
+    height: 850px;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 25px;
+    
+}
+
+.post-header{
+    height: 70px;
+    display: flex; 
+    align-items: stretch;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.first{
+    display: flex;
+    padding-top: 15px; 
+}
+
+.title{
+    padding-left: 10px;
+	inline-size: 100px;
+    overflow-wrap: break-all;
+}
+
+.second{
+    display: flex; 
+    margin-left: auto;
+    padding-top: 15px;
+}
+
+.post-image{
+    width: 600px;
+    height: 500px;
+}
+
+.post-image img{
+    width: 100%;
+    align-items: center;
+}
+
+.post-body{
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.post-icons{
+    display: flex;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-bottom: 5px;   
+}
+
+.icon{
+    display: flex;
+    margin-left: auto;
+}
+
+.comment{
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+i{
+    font-size:40px;
+    padding-right: 5px;
+}
